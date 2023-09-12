@@ -34,7 +34,10 @@ font-family: "Raleway", sans-serif
 
 
 .headerh{
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    padding: 0 15px;
+
 }
 .site-link:hover {
     color: #404BBF;
@@ -242,7 +245,9 @@ background-color: #FFFFFF ;
 .hero-portfolio {
     color:  #111111;
     background-color: var(--white-color);
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    padding-top: 120px;
+
 }
 
 .start-mid {
@@ -334,6 +339,7 @@ font-family: "Raleway", sans-serif
 
 .footer-site {
     background-color: var(--primary-text-color);
+    padding: 100px 0 ;
 
 }
 
@@ -364,6 +370,7 @@ font-family: "Raleway", sans-serif
     line-height: 1.5 ;
     letter-spacing: 0.02em;
     margin-left: 156px;
+    max-width: 264px
 }
  
 
@@ -406,7 +413,7 @@ font-family: "Raleway", sans-serif
   }
 
   .logo-l {
-
+    margin-right: 76px;
     text-decoration: none;
     font-family: Raleway, sans-serif;
     color: #4d5ae5;
@@ -416,6 +423,8 @@ font-family: "Raleway", sans-serif
     letter-spacing: 0.03em ;
     text-transform: uppercase ;
     margin-left: 156px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .mid-list {
@@ -428,5 +437,15 @@ gap: 24px;
 .header-menu {
     display: flex;
     gap: 40px ;
+
+}
+
+.portfolio-list {
+    margin-bottom: 72px; 
+    display: flex ;
+    flex-wrap: wrap; 
+    column-gap: 24px;
+    row-gap: 48px;
+
 
 }
