@@ -32,6 +32,10 @@ font-family: "Raleway", sans-serif
 }
 
 
+
+.headerh{
+    border-bottom: 1px solid #e7e9fc
+}
 .site-link:hover {
     color: #404BBF;
    
@@ -95,13 +99,20 @@ font-style: normal
 .header-nav {
     display: flex;
     align-items: center;
-    flex-grow: 1 ;
+    
 }
+
+.container {
+display: flex;
+}
+
 
 .header-inner {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    width: 1158px;
+    padding: 0 15px ;
 }
 
 .header-sociaals {
@@ -240,7 +251,8 @@ background-color: #FFFFFF ;
     line-height: 1.2;
     color: var(--primary-text-color);
     text-transform: capitalize;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em ;
+    padding: 188px 0 ;
   }
   
   .title-text {
@@ -409,5 +421,12 @@ font-family: "Raleway", sans-serif
 .mid-list {
 display: flex;
 gap: 24px;
+
+}
+
+
+.header-menu {
+    display: flex;
+    gap: 40px ;
 
 }
