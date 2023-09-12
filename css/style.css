@@ -73,7 +73,9 @@ font-family: "Raleway", sans-serif
     padding: 24px 0 24px;
 }
 
-
+.tema {
+    border: 1px solid var(--footer-text-color);
+}
 .address {
     font-style: normal ;
 }
@@ -206,10 +208,15 @@ text-transform: capitalize ;
 color: #2e2f42;
 
 }
-    
+
+
+.teams-list {
+display: flex;
+gap: 24px;
+}
 
 .teams {
-
+flex-basis: calc((100% - 72px) / 4);
 color:  #111111;
 font-family: Roboto;
 font-size: 20px;
@@ -271,6 +278,16 @@ ul {
 
 
 }
+
+.title-h {
+text-align: center;
+margin-bottom: 72px;
+
+}
+
+
+
+
  .site-link {
 
     text-decoration: none;
@@ -333,7 +350,8 @@ font-family: "Raleway", sans-serif
 .footer-text {
     color:#f4f4fd ;
     line-height: 1.5 ;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    margin-left: 156px;
 }
  
 
@@ -385,4 +403,11 @@ font-family: "Raleway", sans-serif
     line-height: 1.17 ;
     letter-spacing: 0.03em ;
     text-transform: uppercase ;
+    margin-left: 156px;
+}
+
+.mid-list {
+display: flex;
+gap: 24px;
+
 }
