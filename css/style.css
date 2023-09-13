@@ -87,6 +87,7 @@ font-family: "Raleway", sans-serif
     font-style: normal ;
 }
 .logo {
+    margin-right: 76px ;
 align-items: center;
     display: flex;
     text-decoration: none;
@@ -107,6 +108,8 @@ font-style: normal
 
 .container {
 display: flex;
+width: 1158px; 
+padding: 0 15px ;
 }
 
 
@@ -136,6 +139,8 @@ line-height: 1.07 ;
 text-align: center ;
 letter-spacing: 0.04em ;
 background-color: #2e2f42 ;
+padding: 188px 0 ;
+
 
 }
 
@@ -165,11 +170,17 @@ font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-background: var(--iris-color);
 color: var(--white-color);
 border: 0px solid;
 cursor: pointer;
-letter-spacing: 0.04em
+letter-spacing: 0.04em ;
+display: block;
+min-width: 169px ;
+height: 56px;
+border: none;
+background-color: #4d5ae5; 
+border-radius: 4px; 
+cursor: pointer;
 }
 
 
@@ -198,7 +209,9 @@ font-size: 56px;
 font-weight: 700;
 line-height: 60px; 
 letter-spacing: 1.12px;
-line-height: 1.07
+line-height: 1.07 ;
+max-width: 496px; 
+
 }
 
 .hero-title:hover
@@ -257,7 +270,8 @@ background-color: #FFFFFF ;
     color: var(--primary-text-color);
     text-transform: capitalize;
     letter-spacing: 0.02em ;
-    padding: 188px 0 ;
+    padding: 120px 0 ;
+
   }
   
   .title-text {
@@ -404,6 +418,12 @@ font-family: "Raleway", sans-serif
 
   }
 
+
+  .start {
+   
+
+
+  }
   .nav-link:hover {
     color: #404bbf
   }
@@ -437,7 +457,7 @@ gap: 24px;
 .header-menu {
     display: flex;
     gap: 40px ;
-
+    margin-right: 76px ;
 }
 
 .portfolio-list {
@@ -446,6 +466,12 @@ gap: 24px;
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px;
+
+
+}
+.hero-list {
+
+
 
 
 }
