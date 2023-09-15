@@ -141,17 +141,7 @@ row-gap: 48px;
 
 
 }
-.container {
-color: var(--accent-color);
-line-height: 1.07 ;
-text-align: center ;
-letter-spacing: 0.04em ;
-background-color: #2e2f42 ;
-padding: 188px 0 ;
-margin-bottom: 72px;
 
-
-}
 
 .hero-section:hover {
     background-color: #404BBF
