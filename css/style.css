@@ -32,7 +32,9 @@ font-family: "Raleway", sans-serif
 }
 
 
+.container:nth-child(2){
 
+}
 .headerh{
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
@@ -421,7 +423,7 @@ font-family: "Raleway", sans-serif
   }
 
   .start {
-   
+    margin-bottom: 8px; 
 
 
   }
@@ -432,6 +434,10 @@ font-family: "Raleway", sans-serif
   .nav-link:focus {
     color: #404bbf
   }
+
+.mainc {
+    padding: 188px 0
+}
 
   .logo-l {
     margin-right: 76px;
@@ -532,4 +538,10 @@ margin-bottom: 8px;
 .section-te {
     text-align: center;
   
+}
+
+.mid-item:nth-child(1) {
+    width: calc((100% - 72px) / 4);
+
+
 }
