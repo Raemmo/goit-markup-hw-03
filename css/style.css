@@ -83,12 +83,9 @@ font-family: "Raleway", sans-serif
 .tema {
     border: 1px solid var(--footer-text-color);
 }
-.address {
-    font-style: normal ;
-}
+
 .logo {
-    margin-right: 76px ;
-align-items: center;
+    align-items: center;
     display: flex;
     text-decoration: none;
     font-weight: 700 ;
@@ -98,7 +95,8 @@ align-items: center;
     text-transform: uppercase;
     color :  #4d5ae5  ;
 font-family: "Raleway", sans-serif ;
-font-style: normal
+font-style: normal ;
+margin-right: 76px ;
 }
 .header-nav {
     display: flex;
@@ -455,12 +453,23 @@ display: flex;
 gap: 24px;
 
 }
-
-
+.nav-link:nth-child(1) {
+    padding: 24px 0;
+    margin-right: 40px
+}
+.nav-link:nth-child(2)
+{
+    padding: 24px 0;
+    margin-right: 40px
+}
+.nav-link:nth-child(3)
+{
+    padding: 24px 0;
+    margin-right: 0
+}
 .header-menu {
     display: flex;
     gap: 40px ;
-    margin-right: 76px ;
 }
 
 .portfolio-list {
