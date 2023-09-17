@@ -259,7 +259,7 @@ background-color: #FFFFFF ;
     background-color: var(--white-color);
     letter-spacing: 0.02em;
     padding-top: 120px;
-
+    padding-bottom: 120px;
 }
 
 .start-mid {
@@ -282,6 +282,7 @@ background-color: #FFFFFF ;
     text-align: center ;
     letter-spacing: 0.02em ; 
     color: #2e2f42;
+    margin-bottom: 72px; 
    
   }
   
@@ -475,6 +476,7 @@ gap: 24px;
 .first {
     width:calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 48px) / 3);
     
 }
 
