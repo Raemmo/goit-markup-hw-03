@@ -282,8 +282,7 @@ background-color: #FFFFFF ;
     text-align: center ;
     letter-spacing: 0.02em ; 
     color: #2e2f42;
-    margin-bottom: 72px; 
-   
+    margin-bottom: 8px
   }
   
   .section-text {
@@ -523,5 +522,5 @@ margin-bottom: 8px;
 
 .section-te {
     text-align: center;
-    margin-bottom: 8px
+  
 }
