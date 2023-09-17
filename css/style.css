@@ -427,6 +427,10 @@ font-family: "Raleway", sans-serif
 
 
   }
+  .our-sect{
+    padding: 120px 0 
+
+  }
   .nav-link:hover {
     color: #404bbf
   }
