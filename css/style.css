@@ -33,9 +33,11 @@ font-family: "Raleway", sans-serif
 
 
 .container:nth-child(2){
+    display: flex;
 
 }
 .headerh{
+   
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     padding: 0 15px;
@@ -106,7 +108,7 @@ margin-right: 76px ;
     
 }
 
-.container {
+.container:nth-child(1) {
 display: flex;
 width: 1158px; 
 padding: 0 15px ;
